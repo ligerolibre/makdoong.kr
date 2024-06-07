@@ -15,3 +15,13 @@
         <NuxtLink class="bg-gradient-to-tr from-pink-500 to-purple-500 text-white font-bold p-3 rounded-lg w-full flex justify-center items-center text-center text-xl hover:brightness-95 hover:scale-95 transition-all duration-300 print:hidden" href="https://www.instagram.com/makdoong.kr">instargram</NuxtLink>
     </div>
 </template>
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Makdoong Cat',
+  ogTitle: 'Makdoong Cat',
+  description: '우리집 고양이 막둥이 이야기',
+  ogDescription: '우리집 고양이 막둥이 이야기',
+  ogImage: 'https://makdoong.kr/og.png',
+  twitterCard: 'summary_large_image',
+})
+</script>
